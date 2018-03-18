@@ -95,6 +95,11 @@
     border-radius: 3px;
 }
 
+.learn-more:hover {
+    color: white;
+    background-color: #181818;
+}
+
 
 .steps {
     background-color: white;
@@ -173,6 +178,10 @@
     border-radius: 3px;
 }
 
+.faq-button:hover {
+    color: white;
+    background-color: #181818;
+}
 
 
 .about {
