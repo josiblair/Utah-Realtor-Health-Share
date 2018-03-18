@@ -71,21 +71,34 @@ class Home extends Component {
         <div className='how-it-works'>
           <img src={question} alt='faq' className='faq-icon' />
 
-          <span>HOW IT WORKS</span>
-          <span>Health Care Cost Sharing is an affordable alternative to expensive healthcare. Join a group of like minded individuals who share medical expenses together.</span>
+          <span className='steps-header'>HOW IT WORKS | FAQs</span>
+          <span className='faq-paragraph'>Health Care Cost Sharing is an affordable alternative to expensive healthcare. Join a group of like minded individuals who share medical expenses together.</span>
 
-          <Link to='/solution'><button>Tell Me More!</button></Link>
+          <Link to='/solution' className='faq-button'>Tell Me More!</Link>
         </div>
 
         <div className='about'>
           <img src={meeting} alt='meeting' className='about-pic' />
 
-          <span>A BIT ABOUT US</span>
-          <span>Utah Realtor Health Share offers clients the best possible protection for all of their insurance needs. As one of the leading insurance companies in the greater San Francisco area, we have built quite the clientele by maintaining a strict customer-comes-first approach. If you are looking to do business with a top notch company that does everything in its power to ensure your satisfaction, contact us today. Our experts are here for your every insurance need and will be happy to supply you with a free estimate.</span>
+          <div className='about-container'>
+            <div className='about-info'>
+              <span className='about-header'>A BIT ABOUT US</span>
+              <span className='about-paragraph'>Utah Realtor Health Share offers clients the best possible protection for all of their insurance needs. As one of the leading insurance companies in the greater San Francisco area, we have built quite the clientele by maintaining a strict customer-comes-first approach. If you are looking to do business with a top notch company that does everything in its power to ensure your satisfaction, contact us today. Our experts are here for your every insurance need and will be happy to supply you with a free estimate.</span>
+            </div>
+          </div>
         </div>
 
-        <div className='contact'>
+        <div className='home-contact'>
           <ContactForm />
+        </div>
+
+        <div className='footer'>
+          <div className='footer1'>
+            <span className='footer-contact'>Contact</span>
+            <span>vaughn@affiliateguard.info</span>
+            <span>801-688-4883</span>
+          </div>
+          <span className='footer2'>©2018 by Utah Realtor Health Share.</span>
         </div>
       </div>
     );
