@@ -27,6 +27,7 @@ class Home extends Component {
               <a href='#home' className='nav-link'>Home</a>
               <a href='#howitworks' className='nav-link'>How It Works</a>
               <Link to='/solution' className='nav-link'><span>The URHS Solution</span></Link>
+              <a href='#about' className='nav-link'>About Us</a>
               <a href='#contact' className='nav-link'>Contact</a>
             </div>
 
@@ -34,7 +35,7 @@ class Home extends Component {
           </div>
         </div>
 
-        <div className='welcome'>
+        <div id='home' className='welcome'>
           <div className='intro-container'>
             <span className='intro'>INTRODUCING UTAH REALTOR HEALTH SHARE</span>
             <span className='intro-paragraph'>Utah Realtor Health Share puts our clients’ needs first. By replacing traditional Major Medical Insurance with an Affordable Care Act Compliant Health Care Cost Sharing plan, we achieve immediate cost savings with long term rate stability.</span>
@@ -68,7 +69,7 @@ class Home extends Component {
           </div>
         </div>
 
-        <div className='how-it-works'>
+        <div id='howitworks' className='how-it-works'>
           <img src={question} alt='faq' className='faq-icon' />
 
           <span className='steps-header'>HOW IT WORKS | FAQs</span>
@@ -77,7 +78,7 @@ class Home extends Component {
           <Link to='/solution' className='faq-button'>Tell Me More!</Link>
         </div>
 
-        <div className='about'>
+        <div id='about' className='about'>
           <img src={meeting} alt='meeting' className='about-pic' />
 
           <div className='about-container'>
@@ -88,7 +89,7 @@ class Home extends Component {
           </div>
         </div>
 
-        <div className='home-contact'>
+        <div id='contact' className='home-contact'>
           <ContactForm />
         </div>
 

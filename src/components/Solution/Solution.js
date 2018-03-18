@@ -16,10 +16,9 @@ class Solution extends Component {
 
           <div className='nav-section'>
             <div className='nav'>
-              <a href='#home' className='nav-link'>Home</a>
-              <a href='#howitworks' className='nav-link'>How It Works</a>
+              <Link to='/' className='nav-link'><span>Home</span></Link>
               <Link to='/solution' className='nav-link'><span>The URHS Solution</span></Link>
-              <a href='#contact' className='nav-link'>Contact</a>
+              <a href='#sol-contact' className='nav-link'>Contact</a>
             </div>
 
             <div className='phoneNumber'>801-688-4883</div>
@@ -61,7 +60,7 @@ class Solution extends Component {
           </div>
         </div>
 
-        <div className='solution-contact'>
+        <div id='sol-contact' className='solution-contact'>
           <ContactForm />
         </div>
 
