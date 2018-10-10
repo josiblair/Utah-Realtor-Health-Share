@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed');
+
 .solution-welcome {
     width: 100vw;
     height: 75vh;
@@ -40,6 +42,11 @@
     padding-left: 80px;
     color: #FFF;
 }
+.solution-preheader2 {
+    font-size: 32px;
+    padding-left: 80px;
+    color: #FFF;
+}
 
 .solution-header {
     font-size: 88px;
@@ -48,7 +55,6 @@
 }
 
 .solution-body {
-    height: 150vh;
     width: 100%;
     background-color: #0086ab;
     display: flex;
@@ -64,11 +70,14 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 .solution-info {
     padding-left: 80px;
     padding-right: 80px;
+    margin-top: 25px;
 }
 
 .body-header {
@@ -86,16 +95,26 @@ p {
 }
 
 .list-header {
-    font-size: 20px;
+    font-size: 35px;
+    font-weight: bold;
 }
 
 .list {
-    margin-top: 50px;
-    list-style: circle inside;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: left;
+    margin-top: 25px;
+    list-style: none;
 }
 
 .list-item {
+    font-size: 25px;
     padding: 3px;
+}
+
+.answer {
+    padding-left: 15px;
+    padding-bottom: 20px;
+    font-size: 16px;
 }
 
 .solution-contact {
