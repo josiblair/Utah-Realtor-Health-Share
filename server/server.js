@@ -6,9 +6,7 @@ const express = require('express'),
       passport = require('passport'),
       Auth0Strategy = require('passport-auth0'),
       cors = require('cors'),
-      path = require('path'),
-      hc = require('../server/homesController'),
-      mc = require('../server/messagesController');
+      path = require('path');
 
 const app = express();
 
