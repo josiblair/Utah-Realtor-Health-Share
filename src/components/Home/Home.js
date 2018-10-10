@@ -29,6 +29,7 @@ class Home extends Component {
               <Link to='/solution' className='nav-link'><span>The URHS Solution</span></Link>
               <a href='#about' className='nav-link'>About Us</a>
               <a href='#contact' className='nav-link'>Contact</a>
+              <Link to='/enroll' className='nav-link em-link'>Enroll Now!</Link>
             </div>
 
             <div className='phoneNumber'>801-688-4883</div>
@@ -38,23 +39,28 @@ class Home extends Component {
         <div id='home' className='welcome'>
           <div className='intro-container'>
             <span className='intro'>INTRODUCING UTAH REALTOR HEALTH SHARE</span>
-            <span className='intro-paragraph'>Utah Realtor Health Share puts our clients’ needs first. By replacing traditional Major Medical Insurance with an Affordable Care Act Compliant Health Care Cost Sharing plan, we achieve immediate cost savings with long term rate stability.</span>
+            <span className='intro-paragraph'>A Better Way to Pay for Health Care - The medical cost sharing model worked for 25 years in private communities. Over one million people are currently using it.  Now it is available for individuals through SHMI.</span><span className='intro-paragraph'>Everyday is Open Enrollment</span>
             <Link to='/solution' className='learn-more'>Learn More</Link>
+            
           </div>
+        </div>
+
+        <div className='slogan'>
+          <span>No application fees - No membership fees - No annual commitment</span>
         </div>
 
         <div className='steps'>
           <div className='step step1'>
             <img src={business} alt='business' className='step-img business-img' />
             <div className='step-info'>
-              <span className='steps-header'>Obamacare Compliant</span>
-              <span className='steps-paragraph'>As a member you are compliant with the individual mandate penalties under the ACA (Obamacare).</span>
+              <span className='steps-header'>The HealthShare Plan Does It All!</span>
+              <span className='steps-paragraph'>ACA compliant, Health Cost Sharing, Medical Bill Negotiation, Telemedicine, Expert Second Opinion, and caring personal Member Advisor services for all members.</span>
             </div>
           </div>
 
           <div className='step step2'>
             <div className='step-info'>
-              <span className='steps-header'>Choose Your Doctor/Hospital</span>
+              <span className='steps-header'>Choose Your Own Doctors</span>
               <span className='steps-paragraph'>One of the benefits of membership in a Health Care Cost Sharing organizaton is that you are not tied to a traditional network.</span>
             </div>
             <img src={doctor} alt='doctor' className='step-img doctor-img' />
@@ -63,17 +69,21 @@ class Home extends Component {
           <div className='step step3'>
             <img src={calculate} alt='calculate' className='step-img calculate-img' />
             <div className='step-info'>
-              <span className='steps-header'>Typically 50% Less Expensive</span>
-              <span className='steps-paragraph'>Monthly programs range from $235 per month for a single member under 30 years old to $857 per month for our most comprehensive program for a family which has no annual or lifetime maximums.</span>
+              <span className='steps-header'>Proven & Affordable</span>
+              <span className='steps-paragraph'>Monthly programs range from $238 per month for a single member under 30 years old to $953 per month for our most comprehensive program for a family which has no annual or lifetime maximums.</span>
             </div>
           </div>
+        </div>
+
+        <div>
+
         </div>
 
         <div id='howitworks' className='how-it-works'>
           <img src={question} alt='faq' className='faq-icon' />
 
           <span className='steps-header'>HOW IT WORKS | FAQs</span>
-          <span className='faq-paragraph'>Health Care Cost Sharing is an affordable alternative to expensive healthcare. Join a group of like minded individuals who share medical expenses together.</span>
+          <span className='faq-paragraph'>Making smart choices (diet, exercise, lifestyle, etc.) can greatly improve one's quality of life. These choices can also dramatically impact the cost of healthcare in positive ways. That's where Health Care Sharing comes in.</span>
 
           <Link to='/solution' className='faq-button'>Tell Me More!</Link>
         </div>
